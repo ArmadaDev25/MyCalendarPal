@@ -21,7 +21,7 @@
                 // Console log to make sure this function is calling the correct HTML element
                 console.log(clock);
                 // Sets the text in the clock to the current time 
-                clock.textContent = timeString;
+                clock.textContent= timeString;
                 
             }
             // Calls the updateTime function
@@ -33,6 +33,8 @@
 
         
     </script>
+    
+    
 </head>
 <body>
     <header>
@@ -47,7 +49,9 @@
     
 
     </main>
-    <div id="clock"></div>
+    <div id="clock">1111</div>
     
 </body>
 </html>
+
+
