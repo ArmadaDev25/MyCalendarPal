@@ -44,14 +44,15 @@
         <h1>My Calender Pal<h2>
     </header>
     <main>
+        
         <div id="contClock">
-        <p>It is </p>
+        <p>Current Time: </p>
         <div id="clock"></div>
         </div>
     
 
     </main>
-    <div id="clock">1111</div>
+    <div id="clock"></div>
     
 </body>
 </html>

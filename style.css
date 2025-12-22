@@ -13,4 +13,15 @@ nav{
 /* Rules for the a tags */
 a {
   text-decoration: none;
+  padding: 10px;
 }
+/* Header for the user dashboard */
+#dashhead{
+  display: flex;
+
+}
+#dashUser{
+  padding-left: 10px;
+  color: rgb(121, 228, 255);
+}
+
