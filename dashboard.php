@@ -24,7 +24,7 @@
    
     if($result->num_rows >0){
         while ($row = $result->fetch_assoc()){
-            echo $row["taskname"];
+            echo $row["taskname"] . $row["taskdis"] . "Due " . $row["duedate"] ;
         }
     }
 
