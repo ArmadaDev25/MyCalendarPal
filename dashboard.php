@@ -18,18 +18,14 @@
     <!---->
     <?php
     // Build the select statment
-    $sql = "SELECT * FROM tasks";
+    $sql = "SELECT taskname, taskdis, taskID, duedate FROM tasks";
     // Run the Query
-    $result = ;
-    // Convert the query into something usable
-    $arrTasks = mysqli_fetch_array($result);
-    if($arrTasks){
-        // Loop through the results and print them out
-        foreach($arrTasks as $row){
+    $result = $db_conn->query($sql);
+   
+    if($result->num_rows >0){
+        while ($row = $result->fetch_assoc()){
             echo $row["taskname"];
         }
-
-
     }
 
     ?>
